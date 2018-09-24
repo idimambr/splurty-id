@@ -8,8 +8,8 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
+    background: #DE3737;
+    border: 1px solid #DE3737;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -35,8 +35,8 @@
 .links a {
   color: black;
   font-size:25px;
-  border-bottom: 1px solid #dfdfdf;
-  font-family: 'amikosemibold';
+  border-bottom: 1px solid #DE3737;
+  font-family: 'amikosemibold', sans-serif;
   font-weight: bold;
 }
 hr {
@@ -44,13 +44,26 @@ hr {
 }
 
 h1 {
-  font-family: 'amikoregular';
+  font-family: 'amikoregular', sans-serif;
   font-weight: bold;
   font-size: 48px;
 }
 
 h2 {
-  font-family: 'amikosemibold';
+  font-family: 'amikosemibold', sans-serif;
   font-weight: 600;
   letter-spacing: -1.5px;
+}
+
+.next-quote {
+  color: #DE3737;
+  font-family: 'amikoregular', sans-serif;
+  font-size:20px;
+}
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 12px;
 }
